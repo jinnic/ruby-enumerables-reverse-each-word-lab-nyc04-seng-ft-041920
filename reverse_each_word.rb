@@ -8,8 +8,8 @@
 =end
 
 def reverse_each_word(string)
-  array = string.split.collect do |word|
+  string.split.collect do |word|
     word.reverse!
   end
-  array.join(" ")
+  string.join(" ")
 end
